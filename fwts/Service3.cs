@@ -87,7 +87,7 @@ namespace fwts
             }
             foreach(fileWatchInfo fi in fileInfoList)
             {
-                RecordEntry(fi.act, fi.act);
+                RecordEntry(fi.act, fi.path);
                 //writer.WriteLine(String.Format("{0} файл {1} был {2}", DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss"), fi.path, fi.act));
                 //writer.Flush();
             }
